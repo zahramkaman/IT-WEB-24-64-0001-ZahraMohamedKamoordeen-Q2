@@ -1,0 +1,27 @@
+﻿@page
+@model StudentDatabase.Pages.Students.StudentCoursesModel
+
+<h1>Student Course Information</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>StudentId</th>
+            <th>Student</th>
+            <th>City</th>
+            <th>Course</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model.Students)
+        {
+            <tr>
+                <td>@student.StudentId</td>
+                <td>@student.StudentName</td>
+                <td>@student.City</td>
+                <td>@student.Course?.CourseName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
