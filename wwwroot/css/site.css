@@ -18,5 +18,23 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #edf2fa;
 }
+
+
+.btn {
+    background-color: #4780d2;
+    color: white;
+    border: none;
+}
+
+    .btn:hover {
+        background-color: #589cfd;
+        color: white;
+    }
+
+.nav-style:hover {
+    background-color: #589cfd;
+}
+
