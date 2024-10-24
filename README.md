@@ -55,3 +55,5 @@ How to run the application:
    - Update-Database
 4. Run the Application in Visual Studio to start the application.
 
+# Additional Considerations
+Answers to Q2 part iv is in the folder: Question 2 - Sql Queries
