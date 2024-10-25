@@ -43,7 +43,6 @@ Prerequisites:
 - Visual Studio
 - ASP.NET
 - Ms SQL Server
-- Ms SQL Server Management Studio
 - Entity Framework Core SQL Server
 - Entity Framework Core Tools
 
