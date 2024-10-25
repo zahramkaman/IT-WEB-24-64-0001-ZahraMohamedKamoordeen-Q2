@@ -49,10 +49,8 @@ Prerequisites:
 
 How to run the application:
 1. Clone the Repository
-2. Setup the Database. In the appsettings.json file, configure your SQL Server connection string:
-  
 
-3. Apply Migrations: Open the Package Manager Console in Visual Studio and run:
+https://drive.google.com/file/d/1JcD_Xr9ZWTLotRyY-ceOwBb9F4POjMIJ/view?usp=sharing
 
 4. Run the Application in Visual Studio to start the application.
 
