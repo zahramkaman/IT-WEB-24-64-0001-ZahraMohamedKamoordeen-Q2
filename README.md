@@ -41,22 +41,14 @@ Technologies Used:
 
 Prerequisites:
 - Visual Studio
-- ASP.NET
-- Ms SQL Server
-- Ms SQL Server Management Studio
-- Entity Framework Core SQL Server
-- Entity Framework Core Tools
+- MS SQL Server
+- MS SQL Server Management Studio
 
 How to run the application:
-1. Clone the Repository
-2. Download the .bak file:
-    https://drive.google.com/file/d/1JcD_Xr9ZWTLotRyY-ceOwBb9F4POjMIJ/view?usp=sharing
-3. Restore the database in SQL Server Management Studio
-4. Update Connection String in appsettings.json to match your local SQL Server instance. For local db:
-   "ConnectionStrings": {
-  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=StudentData;Trusted_Connection=True;"
-}
-5. Run the Application in Visual Studio to start the application.
+1. Clone the Repository. 
+2. Restore the database in SQL Server Management Studio.
+   - database backup file (.bak) can be found inside Database Backup folder
+3. Run the Application in Visual Studio.
 
 # Additional Considerations
 Answers to Q2 part iv is in the folder: Question2-SQL Queries
