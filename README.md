@@ -50,7 +50,7 @@ How to run the application:
 1. Clone the Repository
 2. Setup the Database. In the appsettings.json file, configure your SQL Server connection string:
    - "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=StudentCourseDB;Trusted_Connection=True;MultipleActiveResultSets=true"}
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=StudentData;Trusted_Connection=True;MultipleActiveResultSets=true"}
 3. Apply Migrations: Open the Package Manager Console in Visual Studio and run:
    - Update-Database
 4. Run the Application in Visual Studio to start the application.
