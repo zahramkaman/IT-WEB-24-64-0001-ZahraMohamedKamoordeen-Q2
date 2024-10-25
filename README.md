@@ -12,7 +12,7 @@ New Course Page:
 New courses derived from the database are shown with each course's name and a lecturer's name. This page can also perform CRUD operations.
 
 Student Information Page:
-This page is connected to the New Student page, displaying all the students along with their associated course details. When the New Student page is edited, this page gets automatically updated displaying the following information: 
+This page is connected to the New Student page, displaying all the students along with their associated course details. When the New Student page is edited, this page automatically updates, displaying the following information: 
 - Student ID
 - Student Name
 - City
