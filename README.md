@@ -52,7 +52,7 @@ How to run the application:
 2. Download the .bak file:
     https://drive.google.com/file/d/1JcD_Xr9ZWTLotRyY-ceOwBb9F4POjMIJ/view?usp=sharing
 3. Restore the database in SQL Server Management Studio
-4. Update Connection String in `appsettings.json`to match your local SQL Server instance. For local db:
+4. Update Connection String in appsettings.json to match your local SQL Server instance. For local db:
    "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=StudentCourseDB;Trusted_Connection=True;"
 }
