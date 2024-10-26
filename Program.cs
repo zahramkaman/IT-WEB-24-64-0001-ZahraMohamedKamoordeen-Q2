@@ -4,7 +4,7 @@ using StudentDatabase.Repository;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<StudentDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("StudentCourseDB")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("StudentData")));
 
 
 // Add services to the container.
